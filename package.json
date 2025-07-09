@@ -1,16 +1,17 @@
 {
   "name": "email-service",
   "version": "1.0.0",
-  "description": "Going to create a basic Node.js project that simulates a reliable email sending service using two fake providers.  \r It will handle retry logic, fallback, rate limiting, and prevents duplicate emails.",
+  "description": "A reliable email sending service using two fake providers.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "Niyaz Malik",
   "license": "ISC",
   "dependencies": {
+    "crypto": "^1.0.1",
     "express": "^5.1.0"
   },
   "devDependencies": {
