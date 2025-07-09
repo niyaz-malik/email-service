@@ -46,10 +46,10 @@ src/
 ## API Endpoint
 
   GET /
-  welcome message
+  - welcome message
 
   POST /send
-  Send an email.
+  - Send an email.
 
     Sample Request body(json): 
 
@@ -69,13 +69,13 @@ src/
     If email is duplicate or rate limited, it will tell you.
 
   Mock Providers:
-    ~ provider_modiji and provider_rahulGandhi are mocked
-    ~ Each randomly succeeds/fails to test retry/fallback logic
+  - provider_modiji and provider_rahulGandhi are mocked
+  - Each randomly succeeds/fails to test retry/fallback logic
 
   Notes:
-    ~Idempotency is handled by generating an email ID using SHA-256 hash
-    ~Rate limit: Max 5 emails per minute
-    ~Console logs show which provider was used or failed
+  - Idempotency is handled by generating an email ID using SHA-256 hash
+  - Rate limit: Max 5 emails per minute
+  - Console logs show which provider was used or failed
 
 
 ## What I learnt?
