@@ -1,5 +1,5 @@
 const express = require('express');
-const EmailService = require('./service/EmailService');
+const EmailService = require('./service/emailService');
 const generateEmailId = require('./utils/uniqueIdGenerator');
 
 const app = express();
