@@ -30,8 +30,8 @@ src/
 
 ## Deployment
    Live version hosted on Render
-   
-   🔗 https://your-app-name.onrender.com/send-email
+
+   🔗 https://nm-email-service.onrender.com/send
 
 
 
