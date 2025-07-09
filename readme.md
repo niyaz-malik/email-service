@@ -49,7 +49,7 @@ src/
   - welcome message
 
   POST /send
-  - Send an email.
+  - 1Send an email.
 
     Sample Request body(json): 
 
@@ -79,5 +79,5 @@ src/
 
 
 ## What I learnt?
-    I learnt deployment and project helped me understand patterns like retries, fallback, and rate limiting.
+    I learnt deployment and project helped me understand patterns like retries, fallback, and rate limiting. Also I learnt about crypto hashing---for unique id same hashing...
     Hope you like it!
