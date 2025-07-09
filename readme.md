@@ -37,44 +37,47 @@ src/
 
 ## How to Run Locally
 
-```bash
-git clone https://github.com/niyaz-malik/email-service
-cd email-service
-npm install
-npm start
+    ```bash
+    git clone https://github.com/niyaz-malik/email-service
+    cd email-service
+    npm install
+    npm start
 
 ## API Endpoint
 
-POST /send
-Send an email.
+  GET /
+  welcome message
 
-Sample Request body(json): 
+  POST /send
+  Send an email.
 
-{
-  "to": "niyaz@malik.com",
-  "subject": "Hello...",
-  "body": "Am I a good programmer?"
-}
+    Sample Request body(json): 
 
-Sample Response:
+    {
+    "to": "niyaz@malik.com",
+    "subject": "Hello...",
+    "body": "Am I a good programmer?"
+    }
 
-{
-  "success": true,
-  "message": "Email sent successfully via provider_modiji"
-}
+    Sample Response:
 
-If email is duplicate or rate limited, it will tell you.
+    {
+    "success": true,
+    "message": "Email sent successfully via provider_modiji"
+    }
 
-Mock Providers:
- ~ provider_modiji and provider_rahulGandhi are mocked
- ~ Each randomly succeeds/fails to test retry/fallback logic
+    If email is duplicate or rate limited, it will tell you.
 
-Notes:
- ~Idempotency is handled by generating an email ID using SHA-256 hash
- ~Rate limit: Max 5 emails per minute
- ~Console logs show which provider was used or failed
+  Mock Providers:
+    ~ provider_modiji and provider_rahulGandhi are mocked
+    ~ Each randomly succeeds/fails to test retry/fallback logic
+
+  Notes:
+    ~Idempotency is handled by generating an email ID using SHA-256 hash
+    ~Rate limit: Max 5 emails per minute
+    ~Console logs show which provider was used or failed
 
 
 ## What I learnt?
-This project helped me understand patterns like retries, fallback, and rate limiting.
-Hope you like it!
+    I learnt deployment and project helped me understand patterns like retries, fallback, and rate limiting.
+    Hope you like it!
