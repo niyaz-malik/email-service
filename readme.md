@@ -28,6 +28,13 @@ src/
 - Language: JavaScript (Node.js)
 - Framework: Express
 
+## Deployment
+   Live version hosted on Render
+   
+   🔗 https://your-app-name.onrender.com/send-email
+
+
+
 ## How to Run Locally
 
 ```bash
