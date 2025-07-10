@@ -43,6 +43,19 @@ src/
     npm install
     npm start
 
+## 🧪 Testing
+
+  I used [Jest](https://jestjs.io/) for unit testing.
+
+  To run tests:
+
+  ```bash
+  npm test
+
+  Tested:
+   - Retry mechanism
+   - Rate limiting
+
 ## API Endpoint
 
   GET /
