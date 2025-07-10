@@ -10,7 +10,7 @@ app.use(express.json());
 const emailService = new EmailService();
 
 app.post('/send', async (req, res) => {
-  try {
+  try {  
     const email = req.body;
 
     // for no duplicates...I'll handle that using unique id...so can't use any random id generation

@@ -6,7 +6,7 @@ setInterval(() => {
 }, 60_000);
 
 function canSend() {
-  return emailSent< maxEmailsAllowedPerMinute;
+  return emailSent < maxEmailsAllowedPerMinute;
 }
 
 function recordSend() {
