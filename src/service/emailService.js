@@ -22,7 +22,7 @@ class EmailService {
     // here I am trying every providers
     for (let provider of this.providers) {
       try {
-        await retry(() => provider.sendEmail(email), 2);
+        await retry(() => provider.sendEmail(email), 3);
         markAsSent(email.id);
         recordSend();
         return `Email sent successfully via ${provider.name}`;

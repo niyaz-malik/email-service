@@ -93,5 +93,6 @@ src/
 
 
 ## What I learnt?
-    I learnt deployment and project helped me understand patterns like retries, fallback, and rate limiting. Also I learnt about crypto hashing---for unique id same hashing...
+    I learnt deployment and project helped me understand patterns like retries, fallback, and rate limiting. Also I learnt about crypto hashing---for unique id same hashing and also i learnt about unit testing using jest...
     Hope you like it!
+
